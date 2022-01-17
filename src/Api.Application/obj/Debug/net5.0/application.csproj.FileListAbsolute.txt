@@ -7,6 +7,8 @@ C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\a
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\application.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\ref\application.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\application.pdb
+C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll

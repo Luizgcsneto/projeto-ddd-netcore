@@ -1482,16 +1482,6 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "crossCutting/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/crossCutting.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/crossCutting.dll": {}
-        }
-      },
       "data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -5728,11 +5718,6 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "crossCutting/1.0.0": {
-      "type": "project",
-      "path": "../Api.CrossCutting/crossCutting.csproj",
-      "msbuildProject": "../Api.CrossCutting/crossCutting.csproj"
-    },
     "data/1.0.0": {
       "type": "project",
       "path": "../Api.Data/data.csproj",
@@ -5746,7 +5731,6 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "crossCutting >= 1.0.0",
       "data >= 1.0.0",
       "domain >= 1.0.0"
     ]
@@ -5778,9 +5762,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.CrossCutting\\crossCutting.csproj": {
-              "projectPath": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.CrossCutting\\crossCutting.csproj"
-            },
             "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Data\\data.csproj": {
               "projectPath": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Data\\data.csproj"
             },

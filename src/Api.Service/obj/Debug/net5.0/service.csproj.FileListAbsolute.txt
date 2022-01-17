@@ -2,12 +2,10 @@ C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Service\bin\Debug\net5.0\servi
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Service\bin\Debug\net5.0\service.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Service\bin\Debug\net5.0\ref\service.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Service\bin\Debug\net5.0\service.pdb
-C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Service\bin\Debug\net5.0\crossCutting.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Service\bin\Debug\net5.0\data.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Service\bin\Debug\net5.0\domain.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Service\bin\Debug\net5.0\domain.pdb
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Service\bin\Debug\net5.0\data.pdb
-C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Service\bin\Debug\net5.0\crossCutting.pdb
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\service.csproj.AssemblyReference.cache
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\service.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\service.AssemblyInfoInputs.cache

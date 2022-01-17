@@ -100,7 +100,17 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Data\\data.csproj": {
+                "projectPath": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Data\\data.csproj"
+              },
+              "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Domain\\domain.csproj": {
+                "projectPath": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Domain\\domain.csproj"
+              },
+              "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Service\\service.csproj": {
+                "projectPath": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Service\\service.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -112,6 +122,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -285,9 +301,6 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.CrossCutting\\crossCutting.csproj": {
-                "projectPath": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.CrossCutting\\crossCutting.csproj"
-              },
               "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Data\\data.csproj": {
                 "projectPath": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Data\\data.csproj"
               },
