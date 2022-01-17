@@ -1,0 +1,256 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Service\\service.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.CrossCutting\\crossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.CrossCutting\\crossCutting.csproj",
+        "projectName": "crossCutting",
+        "projectPath": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.CrossCutting\\crossCutting.csproj",
+        "packagesPath": "C:\\Users\\CMTech\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CMTech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Data\\data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Data\\data.csproj",
+        "projectName": "data",
+        "projectPath": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Data\\data.csproj",
+        "packagesPath": "C:\\Users\\CMTech\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CMTech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Domain\\domain.csproj": {
+                "projectPath": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Domain\\domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Domain\\domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Domain\\domain.csproj",
+        "projectName": "domain",
+        "projectPath": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Domain\\domain.csproj",
+        "packagesPath": "C:\\Users\\CMTech\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CMTech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Service\\service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Service\\service.csproj",
+        "projectName": "service",
+        "projectPath": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Service\\service.csproj",
+        "packagesPath": "C:\\Users\\CMTech\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CMTech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.CrossCutting\\crossCutting.csproj": {
+                "projectPath": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.CrossCutting\\crossCutting.csproj"
+              },
+              "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Data\\data.csproj": {
+                "projectPath": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Data\\data.csproj"
+              },
+              "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Domain\\domain.csproj": {
+                "projectPath": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Domain\\domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
