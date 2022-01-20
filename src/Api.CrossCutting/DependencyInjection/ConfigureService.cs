@@ -11,7 +11,7 @@ namespace crossCutting.DependencyInjection
 {
     public class ConfigureService
     {
-        public static void ConfigureDependenciesService(IServiceCollection serviceCollection)
+        public static void ConfigureDependenciesServices(IServiceCollection serviceCollection)
         {
             serviceCollection.AddTransient<IUserService, UserService>();
         }
