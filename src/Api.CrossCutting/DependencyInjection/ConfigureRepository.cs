@@ -1,4 +1,6 @@
-﻿using data.Context;
+﻿using Api.Data.Implementations;
+using Api.Domain.Repository;
+using data.Context;
 using data.Repository;
 using domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -16,6 +18,7 @@ namespace crossCutting.DependencyInjection
         public static void ConfigureDependenciesRepository(IServiceCollection serviceCollection)
         {
             serviceCollection.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
+            serviceCollection.AddScoped<IUserRepository, UserImplementation>();
             serviceCollection.AddDbContext<MyContext>(p => p.UseSqlServer("Server=DESKTOP-36IVIOJ\\SQLEXPRESS;Database=dbApi;Trusted_Connection=True;"));
         }
     }

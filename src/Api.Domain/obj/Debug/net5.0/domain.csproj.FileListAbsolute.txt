@@ -2,7 +2,6 @@ C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Domain\bin\Debug\net5.0\domain
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Domain\bin\Debug\net5.0\domain.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Domain\bin\Debug\net5.0\ref\domain.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Domain\bin\Debug\net5.0\domain.pdb
-C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Domain\obj\Debug\net5.0\domain.csproj.AssemblyReference.cache
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Domain\obj\Debug\net5.0\domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Domain\obj\Debug\net5.0\domain.AssemblyInfoInputs.cache
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Domain\obj\Debug\net5.0\domain.AssemblyInfo.cs
