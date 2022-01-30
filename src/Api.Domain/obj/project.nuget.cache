@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "ZObT54EnvNoP+OMkbD+75Hz9IyhlFNNpUBgn82AOnJULuBqXb2voA+geDjr8WlDx+cq2+5gvrSFvObvA/Zn0nA==",
+  "dgSpecHash": "YZpgBsYezMPDnG8VHukZuau+VMctZvJ8EP2ALOzwwZw0Sh59+OOOeMlkEP/v9o2IssgYBl5HYFWEj82W7Gcz7g==",
   "success": true,
   "projectFilePath": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Domain\\domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\CMTech\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\CMTech\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.15.1\\microsoft.identitymodel.jsonwebtokens.6.15.1.nupkg.sha512",
+    "C:\\Users\\CMTech\\.nuget\\packages\\microsoft.identitymodel.logging\\6.15.1\\microsoft.identitymodel.logging.6.15.1.nupkg.sha512",
+    "C:\\Users\\CMTech\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.15.1\\microsoft.identitymodel.tokens.6.15.1.nupkg.sha512",
+    "C:\\Users\\CMTech\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.15.1\\system.identitymodel.tokens.jwt.6.15.1.nupkg.sha512",
+    "C:\\Users\\CMTech\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
