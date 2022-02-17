@@ -11,7 +11,7 @@ C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\servi
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\service.AssemblyInfoInputs.cache
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\service.AssemblyInfo.cs
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\service.csproj.CoreCompileInputs.cache
+C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\service.csproj.CopyComplete
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\service.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\ref\service.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\service.pdb
-C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Service\obj\Debug\net5.0\service.csproj.CopyComplete

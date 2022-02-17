@@ -1,20 +1,16 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Api.domain.Security;
 using crossCutting.DependencyInjection;
-using data.Context;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
+using System;
+using System.Collections.Generic;
 
 namespace application
 {
@@ -42,10 +38,74 @@ namespace application
                      .Configure(tokenConfigurations);
             services.AddSingleton(tokenConfigurations);
 
+            services.AddAuthentication(authOptions =>
+            {
+                authOptions.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                authOptions.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(bearerOpetions =>
+            {
+                var paramsValidation = bearerOpetions.TokenValidationParameters;
+                paramsValidation.IssuerSigningKey = signingConfigurations.Key;
+                paramsValidation.ValidAudience = tokenConfigurations.Audience;
+                paramsValidation.ValidIssuer = tokenConfigurations.Issuer;
+                paramsValidation.ValidateIssuerSigningKey = true;
+                paramsValidation.ValidateLifetime = true;
+                paramsValidation.ClockSkew = TimeSpan.Zero;
+            });
+
+            services.AddAuthorization(auth =>
+            {
+                auth.AddPolicy("Bearer", new AuthorizationPolicyBuilder()
+                    .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
+                    .RequireAuthenticatedUser().Build());
+            });
+
             services.AddControllers();
+
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "application", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "Curso .net core DDD",
+                    Version = "v1",
+                    Description = "Projeto usando a arquitetura DDD",
+                    TermsOfService = new Uri("https://www.linkedin.com/in/luiz-gonzaga-9a6442ab/"),
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Luiz Gonzaga",
+                        Email = "luizgonzaga15@gmail.com",
+                        Url = new Uri("https://github.com/Luizgcsneto")
+                    },
+                    License = new OpenApiLicense
+                    {
+                        Name = "Luiz Gonzaga",
+                        Url = new Uri("https://github.com/Luizgcsneto")
+                    }
+                });
+
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Description = "Entre o com o JWT",
+                    Name = "Authorization",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.ApiKey
+                });
+
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    {
+
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Id = "Bearer",
+                                Type = ReferenceType.SecurityScheme
+                            }
+                        }, new List<string>()
+
+                   }
+                });
             });
         }
 

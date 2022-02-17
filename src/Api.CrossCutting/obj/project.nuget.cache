@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZB+UgRJaxERcnDXGeNOTblY7zDML0yS7u5b5b86AX9VBtuZSQQbfW7cRQckXZJhJmslGxRgHmweyIwmIUcPgjA==",
+  "dgSpecHash": "oA7TZ3Fe03Ukv6aaSWmGEFaqoRaSzOSSJ3+GxDTm3bVIuka4zirvDncqZtwL+Sx0qmPnJRak504M8kT5BKdnPA==",
   "success": true,
   "projectFilePath": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.CrossCutting\\crossCutting.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\CMTech\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\CMTech\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\CMTech\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\CMTech\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\CMTech\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

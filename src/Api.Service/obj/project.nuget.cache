@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "bXTVRfQoSiJWondznbUlqZlnPwGLbFBgghnLSllHz9qWpXDHkjhO4RQUazFJEBQ8aT3Slr8JCefddbpt1f45eQ==",
+  "dgSpecHash": "bA7HBey6GBeOurufaHjInOAsdkFxIt/E51tAaT2V2KKOIODwePhvR2GR5SH5Nhy2PdbkAJro5AywcNN4uRphDw==",
   "success": true,
   "projectFilePath": "C:\\Users\\CMTech\\Desktop\\curso_api_netcore\\src\\Api.Service\\service.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\CMTech\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\CMTech\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\CMTech\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\CMTech\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\CMTech\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
     "C:\\Users\\CMTech\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.4\\microsoft.entityframeworkcore.5.0.4.nupkg.sha512",

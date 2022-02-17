@@ -9,6 +9,7 @@ C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\r
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\application.pdb
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -25,7 +26,6 @@ C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\M
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -66,8 +66,8 @@ C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\net5.0\s
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\net5.0\staticwebassets\application.StaticWebAssets.xml
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\net5.0\scopedcss\bundle\application.styles.css
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\net5.0\application.RazorTargetAssemblyInfo.cache
+C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\net5.0\application.csproj.CopyComplete
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\net5.0\application.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\net5.0\ref\application.dll
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\net5.0\application.pdb
 C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\net5.0\application.genruntimeconfig.cache
-C:\Users\CMTech\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\net5.0\application.csproj.CopyComplete
