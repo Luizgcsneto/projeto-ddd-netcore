@@ -2,6 +2,7 @@ using Api.domain.Security;
 using AutoMapper;
 using crossCutting.DependencyInjection;
 using crossCutting.Mappings;
+using crossCutting.Mappings.Contact;
 using crossCutting.Mappings.Pessoa;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
@@ -51,6 +52,16 @@ namespace application
 
             IMapper mapperPessoa = configPessoaMapper.CreateMapper();
             services.AddSingleton(mapperPessoa);
+
+            var configContact = new AutoMapper.MapperConfiguration(contact =>
+            {
+                contact.AddProfile(new ContactDtoToModelProfile());
+                contact.AddProfile(new ContactEntityToDtoProfile());
+                contact.AddProfile(new ContactModelToEntityProfile());
+            });
+
+            IMapper mapperContact = configContact.CreateMapper();
+            services.AddSingleton(mapperContact);
 
             var signingConfigurations = new SigningConfigurations();
             services.AddSingleton(signingConfigurations);
