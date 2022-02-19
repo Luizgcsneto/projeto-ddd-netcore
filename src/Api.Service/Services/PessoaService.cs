@@ -1,7 +1,10 @@
 using Api.Domain.Interfaces.Services.Pessoa;
 using Api.Domain.Interfaces.Services.User;
+using AutoMapper;
+using domain.Dtos.Pessoa;
 using domain.Entities;
 using domain.Interfaces;
+using domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,33 +18,47 @@ namespace service.Services
     {
 
         private IRepository<PessoaEntity> _repository;
-        public PessoaService(IRepository<PessoaEntity> repository)
+        private readonly IMapper _mapper;
+        public PessoaService(
+            IRepository<PessoaEntity> repository,
+            IMapper mapper)
         {
             _repository = repository;
+            _mapper = mapper;
         }
         public async Task<bool> Delete(Guid id)
         {
             return await _repository.DeleteAsync(id);
         }
 
-        public async Task<PessoaEntity> Get(Guid id)
+        public async Task<PessoaDto> Get(Guid id)
         {
-            return await _repository.SelectAsync(id);
+            var pessoa = await _repository.SelectAsync(id);
+
+            return _mapper.Map<PessoaDto>(pessoa) ?? new PessoaDto();
         }
 
-        public async Task<IEnumerable<PessoaEntity>> GetAll()
+        public async Task<IEnumerable<PessoaDto>> GetAll()
         {
-            return await _repository.SelectAsync();
+            var listPessoas = await _repository.SelectAsync();
+
+            return _mapper.Map<IEnumerable<PessoaDto>>(listPessoas);
         }
 
-        public async Task<PessoaEntity> Post(PessoaEntity pessoa)
+        public async Task<PessoaDtoCreateResult> Post(PessoaDtoCreate pessoa)
         {
-            return await _repository.InsertAsync(pessoa);
+            var model = _mapper.Map<PessoaModel>(pessoa);
+            var entity = _mapper.Map<PessoaEntity>(model);
+            var result = await _repository.InsertAsync(entity);
+            return _mapper.Map<PessoaDtoCreateResult>(result);
         }
 
-        public async Task<PessoaEntity> Put(PessoaEntity pessoa)
+        public async Task<PessoaDtoUpdateResult> Put(PessoaDtoUpdate pessoa)
         {
-            return await _repository.UpdateAsync(pessoa);
+            var model = _mapper.Map<PessoaModel>(pessoa);
+            var entity = _mapper.Map<PessoaEntity>(model);
+            var result =  await _repository.UpdateAsync(entity);
+            return _mapper.Map<PessoaDtoUpdateResult>(result);
         }
     }
 }

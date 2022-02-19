@@ -1,4 +1,6 @@
+using Api.Domain.Dtos.User;
 using Api.Domain.Interfaces.Services.User;
+using domain.Dtos.User;
 using domain.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -60,7 +62,7 @@ namespace Api.Application.Controllers
 
         [Authorize("Bearer")]
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] UserEntity user)
+        public async Task<ActionResult> Post([FromBody] UserDtoCreate user)
         {
             if (!ModelState.IsValid)
             {
@@ -87,7 +89,7 @@ namespace Api.Application.Controllers
 
         [Authorize("Bearer")]
         [HttpPut]
-        public async Task<ActionResult> Put([FromBody] UserEntity user)
+        public async Task<ActionResult> Put([FromBody] UserDtoUpdate user)
         {
             if (!ModelState.IsValid)
             {
