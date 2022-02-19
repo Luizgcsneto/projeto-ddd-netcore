@@ -15,9 +15,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Mapping\" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Api.Domain\domain.csproj" />
   </ItemGroup>
 

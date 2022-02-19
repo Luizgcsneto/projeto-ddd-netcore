@@ -1,4 +1,5 @@
 ﻿using Api.Data.Mapping;
+using data.Mapping;
 using domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -15,12 +16,14 @@ namespace data.Context
 
         public DbSet<UserEntity> Users { get; set; }
         public DbSet<PessoaEntity> Pessoas { get; set; }
+        public DbSet<ContactEntity> Contatos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<UserEntity>(new UserMap().Configure);
             modelBuilder.Entity<PessoaEntity>(new PessoaMap().Configure);
+            modelBuilder.Entity<ContactEntity>(new ContactMap().Configure);
         }
     }
 }
